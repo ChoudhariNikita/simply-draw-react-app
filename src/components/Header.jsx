@@ -14,7 +14,7 @@ const Header = ({
   const navigate = useNavigate(); // Hook to handle navigation
 
   return (
-    <header className="bg-purple-600 shadow-sm h-16 flex items-center justify-between px-6 w-full mb-3">
+    <header className="bg-purple-600 shadow-sm h-16 flex items-center justify-between px-6 w-full mb-1">
       <div className="flex items-center">
         <img src={logo} alt="SimplyDraw Logo" className="h-8 w-8 mt-1 cursor-pointer" onClick={() => navigate('/')} />
         <div className="text-white font-bold text-xl cursor-pointer" onClick={() => navigate('/')}>SimplyDraw</div>

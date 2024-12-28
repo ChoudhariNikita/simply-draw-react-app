@@ -4,17 +4,7 @@ import { TOOLS } from "../../constants";
 import { SketchPicker } from "react-color";
 
 // Tools component
-const Tools = ({
-  tool = TOOLS.PENCIL,
-  setTool,
-  pencilSize = 5,
-  setPencilSize,
-  eraserSize = 5,
-  setEraserSize,
-  color = "#000000",
-  setColor,
-  fillCanvas
-}) => (
+const Tools = ({ tool, setTool, pencilSize, setPencilSize, eraserSize, setEraserSize, color, setColor, fillCanvas }) => (
   <aside className="w-1/4 bg-gray-200 p-4 ml-1 rounded-md">
     <h3 className="text-lg font-semibold mb-4 text-center">Tools</h3>
     <div className="flex flex-col space-y-2">
